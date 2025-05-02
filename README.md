@@ -10,9 +10,7 @@ This is a web-based dashboard for reporting and visualizing AI safety-related in
 ├── script.ts # TypeScript for logic, filtering, reporting, and dark mode toggle
 └── README.md # Project overview and instructions
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -36,14 +34,17 @@ Edit
 
 ```bash
 npm install -g typescript
+```
 Run the App
 Compile the TypeScript:
+```bash
 tsc script.ts
+```
 This will generate a script.js file.
 
 Open index.html in your browser.
 
-```
+
 📂 Usage Guide
 Click "Report New Incident" to open the form and submit new incidents.
 
