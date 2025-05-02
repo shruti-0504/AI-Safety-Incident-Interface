@@ -43,13 +43,13 @@ This will generate a script.js file.
 
 Open index.html in your browser.
 
+```
 📂 Usage Guide
 Click "Report New Incident" to open the form and submit new incidents.
 
 Use filter buttons to narrow down incidents by severity.
 
 Use sort buttons to switch between newest and oldest incident view.
-
 
 📁 Future Improvements
 Store incident data using localStorage or a backend
@@ -62,3 +62,5 @@ Export incident data (CSV/JSON)
 
 🧠 Inspiration
 This project helps raise awareness about the importance of AI safety and provides a practical tool to track real-world issues in a structured format.
+
+
