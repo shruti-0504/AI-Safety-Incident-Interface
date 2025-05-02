@@ -1,6 +1,6 @@
 # 🛡️ AI Safety Incident Dashboard
 
-This is a web-based dashboard for reporting and visualizing AI safety-related incidents. It allows users to filter, sort, and view incidents based on severity and report new incidents.
+This is a web-based dashboard for reporting and visualizing AI safety-related incidents. It allows users to filter, sort, and view incidents based on severity and report new incidents.The website is live at https://shruti-0504.github.io/AI-Safety-Incident-Interface/ 
 
 ## 🔧 Project Structure
 
