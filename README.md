@@ -1,13 +1,13 @@
 # 🛡️ AI Safety Incident Dashboard
 
-This is a web-based dashboard for reporting and visualizing AI safety-related incidents. It allows users to filter, sort, and view incidents based on severity, report new incidents, and toggle between light and dark themes.
+This is a web-based dashboard for reporting and visualizing AI safety-related incidents. It allows users to filter, sort, and view incidents based on severity and report new incidents.
 
 ## 🔧 Project Structure
 
 📁 project-root/
 ├── index.html # Main HTML layout
-├── styles.css # Styling for the dashboard and dark mode
-├── script.ts # TypeScript for logic, filtering, reporting, and dark mode toggle
+├── styles.css # Styling for the dashboard 
+├── script.ts # TypeScript for logic, filtering and reporting
 └── README.md # Project overview and instructions
 
 
@@ -20,8 +20,7 @@ This is a web-based dashboard for reporting and visualizing AI safety-related in
 - 🎯 Filter incidents by severity: `Low`, `Medium`, `High`
 - 📅 Sort incidents by newest or oldest
 - 📝 Submit new incident reports
-- 🌙 Toggle between Light and Dark mode
-- ⚡ Built with vanilla HTML, CSS, and TypeScript
+- ⚡ Built with HTML, CSS, and TypeScript
 
 ---
 
