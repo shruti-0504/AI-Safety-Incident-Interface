@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Safety Incident Dashboard</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+
+  <header class="header">
+  <h1>AI Safety Incident Dashboard</h1>
+  </header>
+
+  <main class="container">
+    <button id="reportButton" class="primary-btn">Report New Incident</button>
+
+    <section class="controls">
+      <div class="filter">
+        <span>Filter by Severity</span>
+        <button class="filter-btn active" data-filter="All">All</button>
+        <button class="filter-btn" data-filter="Low">Low</button>
+        <button class="filter-btn" data-filter="Medium">Medium</button>
+        <button class="filter-btn" data-filter="High">High</button>
+      </div>
+      <div class="sort">
+        <span>Sort by Date</span>
+        <button class="sort-btn active" data-sort="newest">Newest First</button>
+        <button class="sort-btn" data-sort="oldest">Oldest First</button>
+      </div>
+    </section>
+
+    <section id="incidentList" class="incident-list"></section>
+
+    <section id="reportForm" class="report-form hidden">
+      <h2>Report New Incident</h2>
+      <form id="newIncidentForm">
+        <input type="text" id="title" placeholder="Title" required />
+        <textarea id="description" placeholder="Description" required></textarea>
+        <select id="severity" required>
+          <option value="">Select Severity</option>
+          <option value="Low">Low</option>
+          <option value="Medium">Medium</option>
+          <option value="High">High</option>
+        </select>
+        <button type="submit" class="primary-btn">Submit</button>
+      </form>
+    </section>
+
+  </main>
+
+  <script src="script.js" type="module"></script>
+</body>
+</html>
